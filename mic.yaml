@@ -8,11 +8,11 @@ parameters:
   years:
     default_value: 1
 step: 6
-docker_image: mosorio/swat_simulation:20.5.27
+docker_image: testo_mosorio
 last_execution_dir: /Users/mosorio/tmp/swat_simulation/executions/06_05_14_52_38/src
 github_repo_url: https://github.com/mosoriob/testo_mosorio.git
-version: 20.5.27
-mint_component_url: https://raw.githubusercontent.com/sirspock/swat_simulation/master/mint_component.zip
+version: 20.7.1
+mint_component_url: https://raw.githubusercontent.com/mosoriob/testo_mosorio/master/mint_component.zip
 outputs:
   txtinoutoutput_rsv:
     path: TxtInOut/output.rsv
